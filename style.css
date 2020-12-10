@@ -1,0 +1,50 @@
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+
+#space {
+    display: table;
+    border: 2px #f0edee solid;
+    border-radius: 50px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+#검색 {
+    display: inline;
+    border: 3px solid #f0edec;
+    margin: auto;
+    margin-right: 10px;
+}
+#Feeling {
+    display: inline;
+    border: 3px solid #f0edec;
+    margin: auto;
+    margin-left: 10px;
+}
+.box {
+    background-color: #f0edec;
+    color: #5a5959;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.up {
+    text-align: right;
+    display: table-cell;
+    vertical-align: text-top;
+    float: right;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.search-bar {
+    width: 60%;
+}
